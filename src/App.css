@@ -9,22 +9,37 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: #8ba073;
+  background-color: #643272;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1{
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin: 0.5em 0;
+  height: 2em;
+  will-change: filter;
+  transition: filter 300ms;
+  color: #61dafb;
+}
+
 h3 {
   font-size: 1.5em;
   line-height: 1.2;
   margin: 0.5em 0;
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
   will-change: filter;
   transition: filter 300ms;
-  color: blue;
+  color: rgb(234, 234, 236);
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0.5em 0;
+  color: #ffffff;
 }
 
 

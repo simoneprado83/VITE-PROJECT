@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>
-        Meu Profile
+        Meu Portifólio
       </h1>
       <Profile />
     </>
